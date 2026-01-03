@@ -24,7 +24,7 @@ public class QuantumAiController {
     private final RestTemplate restTemplate = new RestTemplate();
 
     // Replace this with your free Alpha Vantage API key
-    private static final String ALPHA_VANTAGE_KEY = "ORDCDCA7OM4OIBCD";
+    private static final String ALPHA_VANTAGE_KEY = "Your Alpha Vantage API Key Here";
 
     // Map portfolio names to stock/crypto symbols
     private static final Map<String, String> stockMap = Map.of(
